@@ -1,7 +1,7 @@
 package chaos;
 import chaos.StdDraw;
 
-public class Triangle {
+public class LineSegments {
     /**
      * An example method to help students to see use of loops
      * in concert with StdDraw to draw a bunch of points evenly
