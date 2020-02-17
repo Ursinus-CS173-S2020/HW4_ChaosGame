@@ -2,11 +2,20 @@ package chaos;
 import chaos.StdDraw;
 import java.util.Random;
 
-/**
- *
- * @author ctralie
- */
+
 public class Triangle {
+    
+    /**
+     * Draw the Sierpinski Triangle
+     * 
+     * @param ax X coordinate of first point
+     * @param ay Y coordinate of first point
+     * @param bx X coordinate of second point
+     * @param by Y coordinate of second point
+     * @param cx X coordinate of third point
+     * @param cy Y coordinate of third point
+     * @param nPoints Number of points to sample
+     */
     public static void drawTriangleChaos(double ax, double ay, 
                                          double bx, double by,
                                          double cx, double cy,

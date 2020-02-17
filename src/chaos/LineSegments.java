@@ -20,11 +20,15 @@ public class LineSegments {
     public static void drawPointsOnLine(double startx, double starty, 
                                         double endx, double endy, 
                                         int numPoints) {
+        // Setup the pen for StdDraw to use
         StdDraw.setPenRadius(0.01);
         StdDraw.setPenColor(StdDraw.BLUE);
+        // Makes sure the user has chosen at least 2 points
         assert(numPoints >= 2);
+        // Set up the interval between adjacent points
         double dx = (endx - startx)/(numPoints-1);
         double dy = (endy - starty)/(numPoints-1);
+        // Loop through and draw all of the points
         for (int i = 0; i < numPoints; i++) {
             double x = startx + dx*i;
             double y = starty + dy*i;
