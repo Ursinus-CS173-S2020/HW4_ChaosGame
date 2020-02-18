@@ -1,14 +1,13 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/**
+ * An introduction to loops with a program that asks
+ * for how many classes a student is taking, and which
+ * then asks for how many hours they are spending on
+ * each class.  It takes a running total of time and
+ * displays the result at the end
  */
 package chaos;
 import java.util.Scanner;
-/**
- *
- * @author ctralie
- */
+
 public class CourseTimes {
     
     public static void main(String[] args) {
