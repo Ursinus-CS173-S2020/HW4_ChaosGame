@@ -15,6 +15,9 @@ public class TenHeads {
             int numFlips = 0, headsInRow = 0;
             while (headsInRow < 10) {
                 // Inner loop flips until 10 heads are seen
+                // rand.nextInt(2) chooses a random number
+                // that's either 0 or 1.  We insist in this
+                // example that 0 is a heads, and 1 is a tails
                 int coinFlip = rand.nextInt(2);
                 if (coinFlip == 0) {
                     // This is a heads
